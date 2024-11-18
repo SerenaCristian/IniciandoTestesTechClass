@@ -4,11 +4,11 @@ using System.Text;
 
 namespace IniciandoTestesTechClass
 {
-    internal class Calculadora
+    public class Calculadora
     {
-        public double Somar(double primeiroNumero, double segundoNumero) => primeiroNumero + segundoNumero; 
+        public int Somar(int primeiroNumero, int segundoNumero) => primeiroNumero + segundoNumero; 
 
-        public double Subtracao(double primeiroNumero, double segundoNumero ) => primeiroNumero - segundoNumero;
+        public int Subtracao(int primeiroNumero, int segundoNumero ) => primeiroNumero - segundoNumero;
 
         public double Multiplicacao(double primeiroNumero, double segundoNumero) => primeiroNumero * segundoNumero;
 
