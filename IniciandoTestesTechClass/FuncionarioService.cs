@@ -11,7 +11,7 @@ namespace IniciandoTestes.Tests
                 throw new Exception("Funcionario não pode ser nulo");
             }
 
-            if (funcionario.Nome.Length > 3)
+            if (funcionario.Nome.Length < 3)
             {
                 throw new FormatException("Formato incorreto de nome");
             }
