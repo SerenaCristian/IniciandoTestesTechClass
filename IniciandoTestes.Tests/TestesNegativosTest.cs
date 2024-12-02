@@ -5,7 +5,7 @@ using IniciandoTestesTechClass;
 namespace IniciandoTestes.Tests
 {
 
-    public class TestesNegativos
+    public class TestesNegativosTest
     {
         [Fact]
         public void Somar_Incorreto()

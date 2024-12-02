@@ -5,7 +5,7 @@ using IniciandoTestesTechClass;
 namespace IniciandoTestes.Tests
 {
 
-    public class TestesPositivos
+    public class TestesPositivosTest
     {
         [Fact]
         public void Somar()
@@ -15,7 +15,7 @@ namespace IniciandoTestes.Tests
             int n2 = 20;
             Calculadora sut = new Calculadora();
             int resultadoEsperado = 30;
-
+         
             // Act
             int resultado = sut.Somar(n1, n2);
 
@@ -31,7 +31,7 @@ namespace IniciandoTestes.Tests
             int n2 = 10;
             Calculadora sut = new Calculadora();
             int resultadoEsperado = 10;
-
+         
             // Act
             int resultado = sut.Subtracao(n1, n2);
 
@@ -47,7 +47,7 @@ namespace IniciandoTestes.Tests
             double n2 = 20;
             Calculadora sut = new Calculadora();
             int resultadoEsperado = 200;
-
+            
             // Act
             double resultado = sut.Multiplicacao(n1, n2);
 
